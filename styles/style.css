@@ -111,24 +111,47 @@ main {
 .center-section {
   margin-top: 100px;
   padding: 50px;
- 
 }
-.card{
+.card {
   box-shadow: 4px 4px 0px 4px rgb(255, 118, 94);
   padding: 10px;
   border-radius: 10px;
 }
-.card-section{
+.card-section {
   margin-top: 50px;
   display: flex;
   gap: 20px;
-  
 }
-.center-img{
+.center-img {
   width: 30px;
   border-radius: 10px;
   margin-bottom: 10px;
-} 
-.title{
+}
+.title {
   margin-bottom: 10px;
+}
+.resume {
+  margin-top: 50px;
+}
+.resume-section {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px;
+}
+hr {
+  margin: 20px 0;
+}
+.resume-section h1 {
+  margin: 15px 0;
+}
+.collage-name {
+  font-size: 15px;
+  color: #474747;
+  margin: 10px 0;
+}
+
+.center {
+  margin-left: 320px;
+  margin-top: 20px;
 }
