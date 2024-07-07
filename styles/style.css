@@ -17,6 +17,7 @@ nav {
 }
 nav ul {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 nav ul li {
@@ -25,8 +26,109 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
+.blog-color {
+  color: #474747;
+  font-weight: 600;
+}
+.btn-hire {
+  background-color: #fd6e0a;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
 
 .span-style {
   color: #fd6e0a;
 }
 
+.header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: #fff8f3;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.banner-details {
+  width: 580px;
+}
+.banner-details h2 {
+  font-size: 30px;
+}
+.banner-details h1 {
+  font-size: 50px;
+}
+.banner-details p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.image-field {
+  max-width: 510px;
+  height: 603px;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.section-area {
+  background-color: #fff8f3;
+  padding: 100px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-details {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.section-values {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.detail {
+  font-size: 15px;
+  text-align: center;
+}
+
+.center-section {
+  margin-top: 100px;
+  padding: 50px;
+ 
+}
+.card{
+  box-shadow: 4px 4px 0px 4px rgb(255, 118, 94);
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-section{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  
+}
+.center-img{
+  width: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+} 
+.title{
+  margin-bottom: 10px;
+}
