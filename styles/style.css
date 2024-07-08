@@ -109,7 +109,7 @@ main {
 }
 
 .center-section {
-  margin-top: 100px;
+  margin-top: 50px;
   padding: 50px;
 }
 .card {
@@ -154,4 +154,51 @@ hr {
 .center {
   margin-left: 320px;
   margin-top: 20px;
+}
+footer {
+  margin-top: 50px;
+  padding: 130px 230px;
+  background-color: #fff8f3;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.connect-info {
+  width: 50%;
+}
+.connect-info p {
+  margin-top: 10px;
+}
+
+.input-form {
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px ;
+  border-radius: 5px;
+}
+.message-here{
+  width: 310px;
+  height: 110px;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px ;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-submit{
+  margin-top: 5px;
+
+}
+.icon-section{
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+ 
+  
 }
