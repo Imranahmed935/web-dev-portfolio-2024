@@ -197,3 +197,139 @@ footer {
   display: flex;
   gap: 20px;
 }
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+    padding: 30px;
+  }
+  .banner-section img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .banner-details {
+    width: 100%;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  .header {
+    background-image: url("../images/header_bg.png");
+  }
+  .btn-hire {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .section-area {
+    padding: 25px;
+  }
+  .section-values {
+    flex-direction: column;
+    text-align: center;
+  }
+  .detail {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .resume-section {
+    flex-direction: column;
+  }
+  .center {
+    width: 90%;
+    margin-left: 0px;
+    padding: 15px 0px;
+    margin: 0 0 0 20px;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .connect-info {
+    width: 90%;
+    margin-top: 20px;
+  }
+  footer {
+    padding: 10px 10px;
+  }
+  .input-form {
+    width: 100%;
+  }
+  .message-here {
+    width: 100%;
+  }
+  .btn-submit {
+    width: 100%;
+    margin-left: 5px;
+    padding: 15px 0;
+  }
+  .center-section {
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-details {
+    margin-top: 20px;
+  }
+  .banner-details p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .btn-hire {
+    padding: 20px 100px;
+    font-size: 20px;
+    margin: 5px;
+  }
+  .section-details {
+    font-size: 20px;
+  }
+  .detail p {
+    font-size: 20px;
+  }
+  .detail h5 {
+    font-size: 18px;
+  }
+  .section-values {
+    gap: 5px;
+  }
+  .card-section {
+    flex-direction: column;
+  }
+  .center {
+    padding: 15px 70px;
+    margin-left: 250px;
+  }
+  footer {
+    padding: 30px;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+  }
+  .message-here {
+    width: 100%;
+    font-size: 20px;
+  }
+  .input-form {
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+  .connect-info {
+    margin-top: 20px;
+  }
+}
+/* @media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    background: red;
+  } */
